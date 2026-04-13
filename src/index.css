@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+:root {
+  --bg-main: #020202;
+  --bg-elev: #0a0a0a;
+  --text-main: #fff;
+  --text-muted: #b2b2b2;
+  --border-soft: rgb(255 255 255 / 16%);
+  --font-ui: 'Rubik', 'Segoe UI', sans-serif;
+  --font-heading: 'Rubik', 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100dvh;
+  color: var(--text-main);
+  background: var(--bg-main);
+  font-family: var(--font-ui);
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
